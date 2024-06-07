@@ -20,6 +20,7 @@ The Kafka configuration is specified in the application.properties file. Ensure 
 
 
 *Kafka Producer Configuration*
+
 spring.kafka.producer.bootstrap-servers=localhost:9092 
 
 spring.kafka.producer.key-serializer=org.apache.kafka.common.serialization.StringSerializer 
@@ -27,6 +28,7 @@ spring.kafka.producer.key-serializer=org.apache.kafka.common.serialization.Strin
 spring.kafka.producer.value-serializer=org.apache.kafka.common.serialization.StringSerializer
 
 *Kafka Consumer Configuration*
+
 spring.kafka.consumer.bootstrap-servers=localhost:9092 
 
 spring.kafka.consumer.key-deserializer=org.apache.kafka.common.serialization.StringDeserializer 
